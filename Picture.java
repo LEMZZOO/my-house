@@ -70,6 +70,11 @@ public class Picture
         moon.changeColor("magenta");
         moon.makeVisible();
     }
+    public void amanecer()
+    {
+        moon.makeInvisible();
+        sun.slowMoveVertical(-300);
+    }
 
     /**
      * Change this picture to black/white display
